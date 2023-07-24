@@ -3,16 +3,16 @@ plugins {
     id 'kotlin-android'
 
     // Added the plugin
-    id "org.mozilla.rust-android-gradle.rust-android" version "0.9.0"
+    id "org.mozilla.rust-android-gradle.rust-android" version "0.9.3"
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.rc.rustspike.myapplication"
         minSdk 26
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -26,12 +26,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+
+    ndkVersion = '23.1.7779620'
 }
 
 dependencies {
@@ -52,7 +51,8 @@ apply plugin: 'org.mozilla.rust-android-gradle.rust-android'
 cargo {
     module  = "../../helloandroid"
     libname = "helloandroid"
-    targets = ["arm", "x86"]
+    targets = ["arm", "x86","arm64","x86_64"]
+    pythonCommand = "python3"
 }
 
 // Add it as a dependency to one of your other build tasks, to build your rust code when you
