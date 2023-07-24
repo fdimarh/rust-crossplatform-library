@@ -11,4 +11,4 @@ You can read full article in this [link](https://fdimarh.medium.com/creating-rus
 
 ## Dukungan
 
-Thank you colleagues, for other interesting information you can see my blog and content on the channel [Medium](https://medium.com/@fdimarh)
+Thanks, for another interesting information you can see my blog and content on the channel [Medium](https://medium.com/@fdimarh)
