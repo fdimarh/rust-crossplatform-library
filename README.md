@@ -1,7 +1,7 @@
 <h1 align="center">A crossplatform Rust library for Multiplatform application</h1> <br>
 <p align="center">
     <a href="https://medium.com/@fdimarh">
-        <img alt="Profile" title="Profile" src="https://avatars2.githubusercontent.com/u/16381419?s=400&u=573f4ff06bec289d53ccac8468ee45c163b62bd1&v=4" width="450">
+        <img alt="Profile" title="Profile" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5iARrXsntJL-NoaGBhkbJw.png" width="450">
     </a>
 </p>
 
@@ -11,4 +11,4 @@ You can read full article in this [link](https://fdimarh.medium.com/creating-rus
 
 ## Dukungan
 
-Terima kasih rekan-rekan, untuk mendapatkan informasi menarik lainnya Anda dapat melihat blog dan konten saya di kanal [Medium](https://medium.com/@fdimarh), serta Anda dapat mengunduh aplikasi yang telah saya kembangkan di [Playstore saya](https://play.google.com/store/apps/developer?id=Ngecamp+Indonesia).
+Thank you colleagues, for other interesting information you can see my blog and content on the channel [Medium](https://medium.com/@fdimarh)
